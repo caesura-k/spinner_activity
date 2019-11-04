@@ -1,0 +1,2 @@
+# spinner_activity
+spinner控件的两种示例代码，功能为点击spinner按钮后显示toast。

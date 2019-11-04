@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Spinner_activity</string>
+
+    <string-array name="spinner1_array">
+        <item>Toast1</item>
+        <item>Toast2</item>
+        <item>Toast3</item>
+        <item>Toast4</item>
+        <item>Toast5</item>
+        <item>Toast6</item>
+    </string-array>
+
+    <string-array name="spinner2_array">
+        <item>Toast1</item>
+        <item>Toast2</item>
+        <item>Toast3</item>
+        <item>Toast4</item>
+        <item>Toast5</item>
+        <item>Toast6</item>
+    </string-array>
+</resources>

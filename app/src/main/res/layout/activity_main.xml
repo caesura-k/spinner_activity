@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:paddingTop="20dp">
+        <TextView
+            android:id="@+id/tView_1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="spinner1" />
+        <Spinner
+            android:id="@+id/spinner_1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:entries="@array/spinner1_array" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linearLayout1"
+        android:paddingTop="30dp">
+        <TextView
+            android:id="@+id/tView_2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="spinner2" />
+        <Spinner
+            android:id="@+id/spinner_2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:dropDownWidth="100dp"
+            android:popupBackground="@drawable/background"
+            android:dropDownSelector="@color/colorPrimary"
+            />
+    </LinearLayout>
+</RelativeLayout>
